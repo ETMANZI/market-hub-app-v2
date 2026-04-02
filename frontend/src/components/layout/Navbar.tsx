@@ -80,7 +80,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex w-full max-w-screen-2xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between md:px-6">
         <Link to="/" className="text-xl font-bold">
-          Market Hub
+          Market Hub...
         </Link>
 
         <nav className="flex flex-wrap items-center gap-2 text-sm md:text-base">
