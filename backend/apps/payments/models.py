@@ -17,3 +17,8 @@ class PaymentTransaction(TimeStampedModel):
     transaction_ref = models.CharField(max_length=100, unique=True)
     provider_reference = models.CharField(max_length=100, blank=True)
     status = models.CharField(max_length=20, choices=Status.choices, default=Status.PENDING)
+    
+    
+class employees(models.Model):
+    Name = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
